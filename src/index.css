@@ -68,3 +68,21 @@ th{color:var(--mut)}
 .vote.up.on{background:#16432a;border-color:#1db981;color:#7ee2a8}
 .vote.down.on{background:#3a1c1c;border-color:#e0484d;color:#f0a0a0}
 .note{flex:1;min-width:220px;min-height:46px;background:var(--bg);border:1px solid var(--line);color:var(--txt);border-radius:10px;padding:9px 12px;font-family:inherit;font-size:14px;resize:vertical}
+
+/* responsive — phone */
+@media (max-width:640px){
+  .wrap{padding:16px 12px 56px}
+  .controls{position:static;top:auto}
+  .controls input,.controls select,.reset{flex:1 1 100%;min-width:0;width:100%}
+  .statbar{gap:12px;justify-content:space-between}
+  .export{margin-right:0;width:100%;order:9}
+  .card{padding:16px 14px}
+  .card h2{font-size:18px}
+  .hook{font-size:16px}
+  .vo{font-size:15px}
+  header h1{font-size:22px}
+  .theme{position:static;display:inline-block;margin-bottom:10px}
+  table{font-size:12px}
+  .fb{flex-direction:column}
+  .vote,.note{width:100%}
+}

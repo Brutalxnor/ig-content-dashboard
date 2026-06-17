@@ -18,6 +18,9 @@
   "86": {
    "vote": "like"
   },
+  "101": {
+   "vote": "dislike"
+  },
   "102": {
    "vote": "dislike"
   },
